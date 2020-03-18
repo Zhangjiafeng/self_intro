@@ -1,0 +1,68 @@
+.Intro{
+  margin: 0 auto;
+  .clock{
+    height:250px;
+    width:250px;
+    background:hotpink;
+    border-radius: 50%;
+    margin:300px auto;
+    position:relative;
+    .clock_hour{
+      position:absolute;
+      height:75px;
+      width:10px;
+      background: #127fd6;
+      left:120px;
+      top:50px;
+      transform-origin: bottom center;
+      border-radius: 5px;
+    }
+    .clock_minute{
+      position:absolute;
+      height:100px;
+      width:8px;
+      background: orange;
+      left:121px;
+      top:25px;
+      transform-origin: bottom center;
+      border-radius: 4px;
+    }
+    .clock_second{
+      position:absolute;
+      height:110px;
+      width:4px;
+      background: #383838;
+      left:123px;
+      top:15px;
+      transform-origin: bottom center;
+      border-radius: 2px;
+    }
+    .clock_origin{
+      height:20px;
+      width: 20px;
+      border-radius: 10px;
+      background: orangered;
+      position:absolute;
+      top:115px;
+      left: 115px;
+    }
+  }
+  .table{
+    margin:100px auto;
+    transform-origin: bottom center;
+    transform: rotateZ(30deg);
+    display: grid;
+    width:520px;
+    height: 520px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    grid-template-rows: repeat(3,160px);
+    grid-template-columns: repeat(3,160px);
+    .table_cell{
+      color:white;
+      text-align: center;
+      line-height: 160px;
+      font-size:40px;
+    }
+  }
+}
