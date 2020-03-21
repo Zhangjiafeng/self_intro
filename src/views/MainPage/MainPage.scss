@@ -21,10 +21,11 @@
     width:20vh;
     height:20vh;
     border-radius: 50%;
-    //box-shadow:3px 6px 20px 0 rgba(0,0,0,.5);
+    box-shadow:3px 6px 20px 0 rgba(0,0,0,.5);
     margin:0vh auto;
     margin-top:20vh;
     position:relative;
+    overflow: hidden;
     .MainPage_top_front{
       position: absolute;
       top:0;
